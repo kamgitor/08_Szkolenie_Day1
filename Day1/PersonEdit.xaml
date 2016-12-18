@@ -1,0 +1,15 @@
+﻿<Window x:Class="Day1.PersonEdit"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Edycja osoby" Height="300" Width="300">
+    <Grid>
+        <Button Height="23" HorizontalAlignment="Left" Margin="40,0,0,14" Name="Key_OK" VerticalAlignment="Bottom" Width="75" Click="Key_OK_Click">OK</Button>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,0,41,14" Name="Key_Esc" VerticalAlignment="Bottom" Width="75" Click="Key_Esc_Click">Esc</Button>
+        <TextBox Height="23" Margin="40,33,118,0" Name="Box_imie" VerticalAlignment="Top" />
+        <Label Height="28" HorizontalAlignment="Right" Margin="0,33,41,0" Name="label1" VerticalAlignment="Top" Width="55">Imię</Label>
+        <TextBox Height="23" Margin="40,80,118,0" Name="Box_name" VerticalAlignment="Top" />
+        <Label Height="28" HorizontalAlignment="Right" Margin="0,80,41,0" Name="label2" VerticalAlignment="Top" Width="55">Nazwisko</Label>
+        <TextBox Margin="40,129,118,110" Name="Box_klasa" />
+        <Label HorizontalAlignment="Right" Margin="0,129,41,105" Name="label3" Width="55">Klasa</Label>
+    </Grid>
+</Window>
